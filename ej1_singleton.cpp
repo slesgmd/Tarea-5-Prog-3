@@ -85,8 +85,7 @@ int main() {
 
     for (auto& t : threads) t.join();
 
-    std::cout << "Balance final: "
-              << account.getBalance()
+    std::cout << "Balance final: " << account.getBalance()
               << std::endl;
 
     std::cout << "Direccion manager: "
